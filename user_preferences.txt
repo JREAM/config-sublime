@@ -3,8 +3,8 @@
 	"translate_tabs_to_spaces": true,
 	"font_size": 13,
 	"highlight_line": false,
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-    "font_face": "Consolas",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "Consolas",
 	"indent_to_bracket": true,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -14,7 +14,7 @@
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
-    "theme": "Phoenix Dark.sublime-theme",
+	"theme": "Phoenix Dark.sublime-theme",
 	"phoenix_color_expanded_folder": true,
 	"phoenix_color_green": true,
 	"phoenix_dirty_bottom_bar": true,
@@ -22,13 +22,13 @@
 	"phoenix_highlight_current_tab": true,
 	"phoenix_sidebar_font_xlarge": true,
 	"phoenix_solid_current_tab": true,
-    "soda_folder_icons": true,
+	"soda_folder_icons": true,
 	"rulers":
 	[
 		80,
 		120
 	],
-    "tab_size": 4,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
