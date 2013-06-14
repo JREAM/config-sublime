@@ -1,0 +1,4 @@
+BracketHighlighter
+DocBlockr
+SublimeCodeIntel
+SublimeLinter
