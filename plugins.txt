@@ -1,3 +1,4 @@
+Theme - Phoenix
 BracketHighlighter
 DocBlockr
 SublimeCodeIntel
