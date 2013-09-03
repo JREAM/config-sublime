@@ -7,3 +7,4 @@ SublimeCodeIntel
 SublimeLinter
 
 GitGutter
+PyLinter
