@@ -2,9 +2,7 @@ Theme - Phoenix
 BracketHighlighter
 Emmet
 DocBlockr
-SideBarEnhancements
 SublimeCodeIntel
-SublimeLinter
-
+Dotfiles Syntax Highlighter
 GitGutter
-PyLinter
+WordCount
