@@ -5,8 +5,7 @@ SublimeCodeIntel
 Dotfiles Syntax Highlighter
 GitGutter
 WordCount
-Zen Tabs
-
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
+Terminal
