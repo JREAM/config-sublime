@@ -2,16 +2,17 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
 	"enable_telemetry": "disabled",
 	"fade_fold_buttons": false,
 	"font_face": "Consolas",
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": false,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"highlight_line": true,
 	"indent_to_bracket": true,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -34,5 +35,8 @@
 	"theme": "Phoenix Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+
+	"show_encoding": true,
+	"show_line_endings": true,
 }
