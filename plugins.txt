@@ -4,7 +4,8 @@ DocBlockr
 SublimeCodeIntel
 Dotfiles Syntax Highlighter
 
-GitGutter
+jQuery
+
 WordCount
 SublimeLinter
 SublimeLinter-jshint
