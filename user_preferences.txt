@@ -38,5 +38,5 @@
 	"word_wrap": false,
 
 	"show_encoding": true,
-	"show_line_endings": true,
+	"show_line_endings": true
 }
