@@ -1,5 +1,0 @@
-# Use CTRL + Shift + T
-
-{
-        "terminal": "C:\\Console2\\Console.exe"
-}
