@@ -8,9 +8,8 @@ DocBlockr
 SublimeCodeIntel
 Dotfiles Syntax Highlighter
 
-== Misc ==
+# Misc Items
 jQuery
-
 WordCount
 SublimeLinter
 SublimeLinter-jshint
