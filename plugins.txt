@@ -1,3 +1,6 @@
+# Install: https://sublime.wbond.net/installation 
+# Then CTRL + SHIFT + P and Search for "Package Install"
+
 Theme - Phoenix
 BracketHighlighter
 Alignment (Restart Sublime, CTRL + ALT + A with a multi select on arrays)
@@ -5,12 +8,10 @@ DocBlockr
 SublimeCodeIntel
 Dotfiles Syntax Highlighter
 
+== Misc ==
 jQuery
 
 WordCount
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
-
-Terminal
-CSScomb
