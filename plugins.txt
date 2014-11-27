@@ -8,9 +8,10 @@ DocBlockr
 SublimeCodeIntel
 Dotfiles Syntax Highlighter
 
-# Misc Items
-jQuery
-WordCount
+# Development
+SublimePythonIDe
+
+# Development Linters 
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
