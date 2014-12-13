@@ -1,17 +1,15 @@
-# Install: https://sublime.wbond.net/installation 
+# Install: https://sublime.wbond.net/installation
 # Then CTRL + SHIFT + P and Search for "Package Install"
 
 Theme - Phoenix
-BracketHighlighter
 Alignment (Restart Sublime, CTRL + ALT + A with a multi select on arrays)
 DocBlockr
 SublimeCodeIntel
-Dotfiles Syntax Highlighter
 
 # Development
 SublimePythonIDe
 
-# Development Linters 
+# Development Linters
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
