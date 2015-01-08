@@ -5,6 +5,8 @@ Theme - Phoenix
 Alignment (Restart Sublime, CTRL + ALT + A with a multi select on arrays)
 DocBlockr
 SublimeCodeIntel
+SyncedSideBar (Useful to show the currently open file in the tree)
+Monokai Extended (Highlights much more files)
 
 # Development
 SublimePythonIDe
@@ -13,3 +15,4 @@ SublimePythonIDe
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
+
