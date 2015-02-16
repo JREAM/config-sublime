@@ -4,6 +4,11 @@
 - Feel free to fork or simply copy for yourself.
 
 
+## Custom Snippets
+Stole this off `@seneca` in #orlandodevs on Slack
+
+    { "keys": ["leftshift+super+i"], "command": "insert_snippet", "args": {"contents": "import ipdb; ipdb.set_trace()"}}`
+
 ## Hotkeys!
 All Commands below are for in Windows and Linux, as they will be the same. Apple commands will be different, sorry I don't use Apple.
 
