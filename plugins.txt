@@ -1,7 +1,8 @@
 # Install: https://sublime.wbond.net/installation
 # Then CTRL + SHIFT + P and Search for "Package Install"
 
-Theme - Phoenix
+# Theme - Phoenix
+Theme - Afterglow   <--- This is the new theme I use
 Alignment (Restart Sublime, CTRL + ALT + A with a multi select on arrays)
 DocBlockr
 SublimeCodeIntel
