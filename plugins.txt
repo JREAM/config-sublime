@@ -17,3 +17,7 @@ SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
 
+
+# Optional
+HTML5
+jQuery
