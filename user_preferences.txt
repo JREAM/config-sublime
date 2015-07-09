@@ -1,6 +1,6 @@
 {
-	"__SELECT_COLOR_SCHEME_MANUALLY__FROM_PACKAGES_AFTERGLOW_MONOKAI": "",
-	"__use_if_available__font_face": "Inconsolata",
+	"__NOTE_You_may_have_to_select_Color_Scheme_Manuals": "__From_Packages_Afterglow_Monakai",
+	"_theme": "Afterglow-blue.sublime-theme",
 	"auto_close_tags": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
@@ -8,7 +8,7 @@
 	"caret_extra_width": 0,
 	"caret_style": "phase",
 	"color_inactive_tabs": false,
-	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"drag_text": false,
@@ -18,8 +18,8 @@
 	"ensure_newline_at_eof_on_save": false,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "UTF-8",
-	"font_face": "Consolas",
-	"font_size": 11.6,
+	"font_face": "Inconsolata",
+	"font_size": 14,
 	"gutter": true,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
@@ -36,18 +36,19 @@
 	"remember_open_files": false,
 	"rulers":
 	[
-		80
+		82
 	],
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"sidebar_row_padding_large": true,
 	"sidebar_size_14": true,
 	"spell_check": false,
 	"status_bar_brighter": true,
 	"tab_size": 4,
-	"tabs_medium": true,
-	"theme": "Afterglow-green.sublime-theme",
-	"_theme": "Afterglow-orange.sublime-theme",
+	"tabs_label_not_italic": true,
+	"tabs_large": true,
+	"theme": "Afterglow-blue.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
