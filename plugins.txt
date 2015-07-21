@@ -16,6 +16,7 @@ SublimePythonIDe
 SublimeLinter
 SublimeLinter-jshint
 SublimeLinter-php
+phpdoc
 
 
 # Optional
