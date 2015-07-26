@@ -22,3 +22,5 @@ phpdoc
 # Optional
 HTML5
 jQuery
+SideBarGit
+TodoReview
