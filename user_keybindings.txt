@@ -4,5 +4,6 @@
     { "keys": ["ctrl+w"], "command": "close_file" },
     { "keys": ["keypad_enter"], "command": "find_next", "context":
         [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-    }
+    },
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
 ]
