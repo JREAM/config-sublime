@@ -1,5 +1,5 @@
 {
-    "instructions": "Place inside sublime/Packages/User/*",
+    "instructions": "On Linux this is at ~/.config/sublime-text-3/Packages/User",
     "completions": [
         { "trigger": "puf", "contents": "public function $1($0) {}" },
         { "trigger": "pri", "contents": "private function $1($0) {}" },
