@@ -1,0 +1,8 @@
+{
+    "instructions": "Place inside sublime/Packages/User/*",
+    "completions": [
+        { "trigger": "puf", "contents": "public function $1($0) {}" },
+        { "trigger": "pri", "contents": "private function $1($0) {}" },
+        { "trigger": "pro", "contents": "protected function $1($0) {}" }
+    ]
+}
