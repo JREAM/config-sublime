@@ -10,7 +10,8 @@ SyncedSideBar (Useful to show the currently open file in the tree)
 Monokai Extended (Highlights much more files)
 
 # Development
-SublimePythonIDe
+SublimePythonIDE
+MarkdownPreview
 
 # Development Linters
 SublimeLinter
