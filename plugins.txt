@@ -25,4 +25,5 @@ HTML5
 jQuery
 SideBarGit
 TodoReview
+SideBarEnhancements
 Emmet 
