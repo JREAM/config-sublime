@@ -21,6 +21,7 @@ phpdoc
 
 
 # Optional
+ColorHighlighter
 HTML5
 jQuery
 SideBarGit
