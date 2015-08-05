@@ -11,7 +11,9 @@ Monokai Extended (Highlights much more files)
 
 # Development
 SublimePythonIDE
-MarkdownPreview
+MarkdownPreview       # In my keybindings use alt+m, otherwise ctrl+shift+p and search for markdown.
+Pretty JSON           # Useful for reading/debugging output: Prettify with ctrl+alt+J
+HTMLBeautify          # Tabs out and makes your HTML nice: ctrl+alt+shift+F
 
 # Development Linters
 SublimeLinter
@@ -21,10 +23,13 @@ phpdoc
 
 
 # Optional
-ColorHighlighter
+Angular​JS            # Nice auto completion, for customization: https://packagecontrol.io/packages/AngularJS
+ColorHighlighter      # Great for CSS
 HTML5
 jQuery
-SideBarGit
-TodoReview
-SideBarEnhancements
+GitGutter             # Useful for seeing your changes verses your current HEAD
+SideBarGit            # Only if you don't like using terminal
+TodoReview            # Right click a folder
+SideBarEnhancements   # This makes the sidebar drop down too long imo
 Emmet 
+ColorPicker           # ctrl+shift+c
