@@ -2,22 +2,26 @@
 These are plugins you can use if you like, they are often ones I use!
 
 ### Install Package Control
-Visit Here: https://sublime.wbond.net/installation
+Visit Here for Instructions: https://sublime.wbond.net/installation
 
 ### Installing Packages
-Press <kbd>CTRL + SHIFT + P</kbd> and Type `Pi` and you should see `Package Control: Install Package`
+Press <kbd>CTRL + SHIFT + P</kbd> and type <kbd>Pi</kbd> and you should see **Package Control: Install Package**
 
 ### Plugin List
+You can use any plugins you want, but these are ones I often have installed. I do not often
+have the optional packages installed, but I use them once and a blue moon.
 
 Plugin                              | Notes
 ----------------------------------  | ----------------------------------
-(Not Used) Theme - Phoenix          |
-Theme - Afterglow                   | This is the new theme I use
-Alignment                           | Restart Sublime, <kbd>CTRL + ALT + A</kbd> With multi-selected arrays
+**UI**                              |
+Theme - Phoenix                     | (Previous Theme I used)
+Theme - Afterglow                   | Current Theme I use
+Monokai Extended                    | Highlights more files with Monakai colors
+**Essentials**                      |
+Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 DocBlockr                           |
 SublimeCodeIntel                    |
-SyncedSideBar                       | Useful to show the currently open file in the tree)
-Monokai Extended                    | Highlights more files with Monakai colors
+SyncedSideBar                       | Useful to show the currently open file in the tree
 **Development**                     |
 SublimePythonIDE                    |
 MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
@@ -25,7 +29,7 @@ Pretty JSON                         | Useful for reading/debugging output: Prett
 HTMLBeautify                        | Tabs out and makes your HTML nice: <kbd>CTRL+ALT+SHIFT+F</kbd>
 Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
 Indent XML                          | Can also conver to JSON (Use with <kbd>CTRL+SHIFT+P</kbd>)
-**Lintres**
+**Linters**
 phpcs                               | PHP Code Sniffer
 SublimeLinter                       | A suite of optional other languages (Two below for example)
 SublimeLinter-jshint                |
