@@ -14,9 +14,12 @@ SublimePythonIDE
 MarkdownPreview       # In my keybindings use alt+m, otherwise ctrl+shift+p and search for markdown.
 Pretty JSON           # Useful for reading/debugging output: Prettify with ctrl+alt+J
 HTMLBeautify          # Tabs out and makes your HTML nice: ctrl+alt+shift+F
+Javascript Beautify   # Tabs out and makes your JS nice (Use: CTRL+SHIFT+P)
+Indent XML            # Can also conver to JSON (Use with CTRL+SHIFT+P)
 
 # Development Linters
-SublimeLinter
+phpcs                 # PHP Code Sniffer
+SublimeLinter         # Cleanliness!
 SublimeLinter-jshint
 SublimeLinter-php
 phpdoc
@@ -31,5 +34,5 @@ GitGutter             # Useful for seeing your changes verses your current HEAD
 SideBarGit            # Only if you don't like using terminal
 TodoReview            # Right click a folder
 SideBarEnhancements   # This makes the sidebar drop down too long imo
-Emmet 
+Emmet
 ColorPicker           # ctrl+shift+c
