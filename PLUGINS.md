@@ -29,7 +29,7 @@ Pretty JSON                         | Useful for reading/debugging output: Prett
 HTMLBeautify                        | Tabs out and makes your HTML nice: <kbd>CTRL+ALT+SHIFT+F</kbd>
 Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
 Indent XML                          | Can also conver to JSON (Use with <kbd>CTRL+SHIFT+P</kbd>)
-**Linters**
+**Linters**                         |
 phpcs                               | PHP Code Sniffer
 SublimeLinter                       | A suite of optional other languages (Two below for example)
 SublimeLinter-jshint                |
@@ -38,8 +38,8 @@ phpdoc                              | PHP Docs, very useful.
 **Optional**                        |
 Angular​JS                           | Auto completion, for customization: https://packagecontrol.io/packages/AngularJS
 ColorHighlighter                    | Great for CSS
-HTML5
-jQuery
+HTML5                               |
+jQuery                              |
 GitGutter                           | Useful for seeing your changes verses your current HEAD
 SideBarGit                          | Only if you don't like using terminal
 TodoReview                          | Right click a folder
