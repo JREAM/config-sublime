@@ -2,8 +2,32 @@
     { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     { "keys": ["ctrl+d"], "command": "duplicate_line" },
     { "keys": ["ctrl+w"], "command": "close_file" },
-    { "keys": ["keypad_enter"], "command": "find_next", "context":
-        [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+    { "keys": ["keypad_enter"],
+        "command": "find_next",
+        "context": [{
+            "key": "panel",
+            "operand": "find"
+        },
+        {
+            "key": "panel_has_focus"
+        }]
     },
-    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+    {
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args": {
+            "target": "browser",
+            "parser":"markdown"
+        }
+    },
+    {
+        "keys": ["f1"],
+        "command": "dired",
+        "args": {
+            "immediate": true,
+            "single_pane": true,
+            "other_group": "right",
+            "project": true
+        }
+    }
 ]
