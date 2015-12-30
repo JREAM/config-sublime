@@ -17,6 +17,7 @@ Plugin                              | Notes
 Theme - Phoenix                     | (Previous Theme I used)
 Theme - Afterglow                   | Current Theme I use
 Monokai Extended                    | Highlights more files with Monakai colors
+SublimeFileBrowser                  | See Keybindings (F1) to Toggle
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 DocBlockr                           |
