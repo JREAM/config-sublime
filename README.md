@@ -7,6 +7,13 @@
 The plugins file you have to install with the Sublime package manager by
 going to [https://packagecontrol.io/installation](https://packagecontrol.io/installation). Then you press <kbd>CTRL+SHIFT+P</kbd> and type <kbd>Inst</kbd> and you should see `Install Package`.
 
+## Install Package Control
+
+Go to `View > Show Console menu` or CTRL+` (tilde) and enter the following, then restart. Once installed type `CTRL + SHIFT + P` and type Install and you should see Package Control.
+```
+import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+```
+
 ## User Settings
 You can copy my user settings if you like them. Anything prefixed with an `_` underscore means its not being used, that's because you can't comment in JSON so it's there incase you want to use it.
 
