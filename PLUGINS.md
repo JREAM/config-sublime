@@ -17,13 +17,16 @@ Plugin                              | Notes
 Theme - Phoenix                     | (Previous Theme I used)
 Theme - Afterglow                   | Current Theme I use
 Monokai Extended                    | Highlights more files with Monakai colors
-SublimeFileBrowser                  | See Keybindings (F1) to Toggle
+File Browser                        | See Keybindings (F1) to Toggle
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
+BracketHighlighter                  |
 DocBlockr                           |
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
 **Development**                     |
+Sass                                |
+YAML Nav                            | <kbd>CTRL+R</b> in a yml file
 SublimePythonIDE                    |
 MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
 Pretty JSON                         | Useful for reading/debugging output: Prettify with <kbd>CTRL+ALT+J</kbd>
