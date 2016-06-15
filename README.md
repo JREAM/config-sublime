@@ -44,6 +44,10 @@ Move Line Down  | <kbd>CTRL + SHIFT + DOWN</kbd>
 Moving By Words | <kbd>CTRL + LEFT or RIGHT</kbd>
 Select Words    | <kbd>SHIFT + LEFT or RIGHT</kbd>
 Remove Word     | <kbd>CTRL + DELETE</kbd>
+Fold Scope      | <kbd>CTRL + [</kbd>
+Unfold Scope    | <kbd>CTRL + ]</kbd>
+Fold Entire Scope | <kbd>CTRL + SHIFT + [</kbd>
+Unfold Entire Scope | <kbd>CTRL + SHIFT + ]</kbd>
 **Basics** |
 Indent     | <kbd>TAB</kbd> or <kbd>CTRL + ]</kbd>
 Unindent   | <kbd>SHIFT + TAB</kbd> or <kbd>CTRL + [</kbd>
