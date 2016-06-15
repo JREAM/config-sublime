@@ -16,8 +16,8 @@ Plugin                              | Notes
 **UI**                              |
 Theme - Phoenix                     | (Previous Theme I used)
 Theme - Afterglow                   | Current Theme I use
-Monokai Extended                    | Highlights more files with Monakai colors
-File Browser                        | See Keybindings (F1) to Toggle
+Monokai Extended                    | Highlights more files with Monakai colors (Manually select this from dropdown)
+File Browser                        | See Keybindings (F1) to Toggle (It's mediocre)
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 BracketHighlighter                  |
@@ -25,8 +25,11 @@ DocBlockr                           |
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
 **Development**                     |
-Sass                                |
-YAML Nav                            | <kbd>CTRL+R</b> in a yml file
+phpunitkit                          | It's the bomb
+phpgrammar                          | It's the bomb
+phpcompletions                      |
+sass                                |
+yaml nav                            | <kbd>CTRL+R</b> in a yml file
 SublimePythonIDE                    |
 MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
 Pretty JSON                         | Useful for reading/debugging output: Prettify with <kbd>CTRL+ALT+J</kbd>
