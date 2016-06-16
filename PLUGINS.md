@@ -18,6 +18,7 @@ Theme - Phoenix                     | (Previous Theme I used)
 Theme - Afterglow                   | Current Theme I use
 Monokai Extended                    | Highlights more files with Monakai colors (Manually select this from dropdown)
 File Browser                        | See Keybindings (F1) to Toggle (It's mediocre)
+Fold Python |
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 BracketHighlighter                  |
@@ -25,9 +26,10 @@ DocBlockr                           |
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
 **Development**                     |
+python completions                  |
 phpunitkit                          | It's the bomb
 phpgrammar                          | It's the bomb
-phpcompletions                      |
+phpunitcompletions                  |
 sass                                |
 yaml nav                            | <kbd>CTRL+R</b> in a yml file
 SublimePythonIDE                    |
