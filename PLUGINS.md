@@ -25,6 +25,7 @@ BracketHighlighter                  |
 DocBlockr                           |
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
+RegReplace                          | Used for customizing hotkeys
 **Development**                     |
 python completions                  |
 phpunitkit                          | It's the bomb
