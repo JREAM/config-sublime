@@ -21,6 +21,7 @@ File Browser                        | See Keybindings (F1) to Toggle (It's medio
 Fold Python |
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
+Normalize-Identation                | <kbd>CTRL+ALT+i</kbd> to fix the normalize indentation
 BracketHighlighter                  |
 DocBlockr                           |
 SublimeCodeIntel                    |
