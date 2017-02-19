@@ -32,8 +32,12 @@ python completions                  |
 phpunitkit                          | It's the bomb
 phpgrammar                          | It's the bomb
 phpunitcompletions                  |
-sass                                |
-yaml nav                            | <kbd>CTRL+R</b> in a yml file
+Handlebars                          |
+HTML5                               |
+jQuery                              |
+jQueryDocs                          |
+SASS                                |
+YAML Nav                            | <kbd>CTRL+R</b> in a yml file
 SublimePythonIDE                    |
 MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
 Pretty JSON                         | Useful for reading/debugging output: Prettify with <kbd>CTRL+ALT+J</kbd>
@@ -41,16 +45,22 @@ HTMLBeautify                        | Tabs out and makes your HTML nice: <kbd>CT
 Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
 Indent XML                          | Can also conver to JSON (Use with <kbd>CTRL+SHIFT+P</kbd>)
 **Linters**                         |
-phpcs                               | PHP Code Sniffer
 SublimeLinter                       | A suite of optional other languages (Two below for example)
-SublimeLinter-jshint                |
-SublimeLinter-php                   |
+SublimeLinter-annotation            |
+SublimeLinter-jscs                  | Also run: `npm install -g jscs`
+SublimeLinter-jshint                | Also run: `npm install -g jshint`
+SublimeLinter-contrib-eslint        | Also run: `npm install -g eslint`
+SublimeLinter-json                  |
+SublimeLinter-csslint               | Also run: `npm install -g csslint`
+SublimeLinter-contrib-sass-lint     | Also Run: `npm install -g sass-lint`
+SublimeLinter-contrib-htmlhint     | Also run: `npm install -g htmlhint@latest`
+SublimeLinter-pep8                  | Also run: `sudo pip install pep8`
+SublimeLinter-php                   | (PHP must be installed)
+SublimeLinter-phpcs                 | Code Sniffer, Also Run: `composer global require "squizlabs/php_codesniffer=*"`
+SublimeLinter-lint                  | Also Run: `npm install -g phplint`
+SublimeLinter-contrib-py-lint       | Also Run: `sudo pip install pylint`
 phpdoc                              | PHP Docs, very useful.
 **Optional**                        |
-Angular​JS                           | Auto completion, for customization: https://packagecontrol.io/packages/AngularJS
-ColorHighlighter                    | Great for CSS
-HTML5                               |
-jQuery                              |
 GitGutter                           | Useful for seeing your changes verses your current HEAD
 SideBarGit                          | Only if you don't like using terminal
 TodoReview                          | Right click a folder
