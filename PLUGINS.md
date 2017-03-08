@@ -8,17 +8,20 @@ Visit Here for Instructions: https://sublime.wbond.net/installation
 Press <kbd>CTRL + SHIFT + P</kbd> and type <kbd>Pi</kbd> and you should see **Package Control: Install Package**
 
 ### Plugin List
-You can use any plugins you want, but these are ones I often have installed. I do not often
-have the optional packages installed, but I use them once and a blue moon.
+You can use any plugins you want, but these are ones I have often installed.
+I do not use the `optional` packages below much.
 
 Plugin                              | Notes
 ----------------------------------  | ----------------------------------
 **UI**                              |
+Material Theme                      | After Installing, <kbd>CTRL+SHIFT+P<kbd> > `mconfig` to configure. [URL](https://github.com/equinusocio/material-theme)
+Material Theme Appbar               |
+                                    |
 Theme - Phoenix                     | (Previous Theme I used)
-Theme - Afterglow                   | Current Theme I use
-Monokai Extended                    | Highlights more files with Monakai colors (Manually select this from dropdown)
-File Browser                        | See Keybindings (F1) to Toggle (It's mediocre)
-Fold Python |
+Theme - Afterglow                   | (Previous Theme I used)
+Monokai Extended                    | Still my favorite. Highlights more files with Monakai colors.
+                                    | After intalling items you have to select this from: `
+                                    |   Preferences > Color Scheme > Monokai Extended > ...`
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 Normalize-Identation                | <kbd>CTRL+ALT+i</kbd> to fix the normalize indentation
@@ -29,8 +32,8 @@ SyncedSideBar                       | Useful to show the currently open file in 
 RegReplace                          | Used for customizing hotkeys
 **Development**                     |
 python completions                  |
-phpunitkit                          | It's the bomb
-phpgrammar                          | It's the bomb
+phpunitkit                          |
+phpgrammar                          |
 phpunitcompletions                  |
 Handlebars                          |
 HTML5                               |
@@ -61,9 +64,12 @@ SublimeLinter-lint                  | Also Run: `npm install -g phplint`
 SublimeLinter-contrib-py-lint       | Also Run: `sudo pip install pylint`
 phpdoc                              | PHP Docs, very useful.
 **Optional**                        |
-GitGutter                           | Useful for seeing your changes verses your current HEAD
-SideBarGit                          | Only if you don't like using terminal
-TodoReview                          | Right click a folder
-SideBarEnhancements                 | This makes the sidebar drop down too long imo
-Emmet                               | Short Syntax for markup, see http://emmet.io/
-ColorPicker                         | <kbd>CTRL+SHIFT+C</kbd>
+GitGutter                           | (I don't use) Useful for seeing your changes verses your current HEAD
+TodoReview                          | Right click a folder > Todo Review
+SideBarEnhancements                 | (I don't use) Many more options in the context menu
+Emmet                               | (I don't use) Short Syntax for markup [Emmit.io](http://emmet.io/)
+ColorPicker                         | (I don't use) <kbd>CTRL+SHIFT+C</kbd>
+
+---
+
+&copy 2017 Jesse Boyer | [JREAM](http://jream.com)
