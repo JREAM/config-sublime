@@ -34,7 +34,7 @@ Git                                 | Context Menu for Git commands in current p
 ColorHighlighter                    | Highlight color when you type, cursor is near, or click a hexadecimal/color string
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
-SideBarEnhancements                 | Many more options in the browser context menu, also F12/Alt+F12 for Local/Live Preview
+SideBarEnhancements                 | (I dont use, but many like it) Many more options in the browser context menu, also F12/Alt+F12 for Local/Live Preview
 RegReplace                          | Used for customizing hotkeys
 Terminal                            | Open terminal in current folder
 Themr                               | Quickly Swap Themes

@@ -83,7 +83,7 @@ Git | <kbd>CTRL+SHIFT+P</kbd> Type `git` and run any Git command from current Gi
 Terminal | <kbd>CTRL+SHIFT+T</kbd> Open terminal in current file/folder you have open (You can configure your terminal)
 CSSComb | <kbd>CTRL+SHIFT+C</kbd> Organize the names  (Conflicts with ColorPicker Hotkey, remap one or the other)
 ColorPicket | <kbd>CTRL+SHIFT+C</kbd> Open a Color Picker! (Conflicts with ColorPicker Hotkey, remap one or the other)
-
+bs3-subime-plugin | type <kbd>&lt;bs3</kbd> in your editor for a dropdown
 # Custom Snippets
 Stole this off `@seneca` in #orlandodevs on Slack
 
