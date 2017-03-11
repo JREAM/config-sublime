@@ -24,29 +24,40 @@ Monokai Extended                    | Still my favorite. Highlights more files w
                                     |   Preferences > Color Scheme > Monokai Extended > ...`
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
+AdvancedNewFile                     | <kbd>SUPER+ALT+N</kbd> Create new file/folders from project root
 Normalize-Identation                | <kbd>CTRL+ALT+i</kbd> to fix the normalize indentation
 BracketHighlighter                  |
+HTML-CSS-JS Prettify                | Required: NodeJS for JS Prettify
 DocBlockr                           |
+FileDiffs                           | Like Meld or Winmerge in ST3
+Git                                 | Context Menu for Git commands in current project
+ColorHighlighter                    | Highlight color when you type, cursor is near, or click a hexadecimal/color string
 SublimeCodeIntel                    |
 SyncedSideBar                       | Useful to show the currently open file in the tree
+SideBarEnhancements                 | Many more options in the browser context menu, also F12/Alt+F12 for Local/Live Preview
 RegReplace                          | Used for customizing hotkeys
+Terminal                            | Open terminal in current folder
+Themr                               | Quickly Swap Themes
+MarkdownPreview                     | Load Markdown File and Update it, Refresh Browser
 **Development**                     |
+bs3-sublime-plugin                  | Bootstrap 3 Autocomplete Snippets
+                                    | The following must be in your settings to use `
+                                    | `"auto_complete_triggers": [{"selector": "text.html", "characters": "<"},{"selector": "text.html", "characters": "bs3"}]`
+jQuery                              |
+jQueryDocs                          |
+Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
 python completions                  |
+SublimePythonIDE                    |
 phpunitkit                          |
 phpgrammar                          |
 phpunitcompletions                  |
 Handlebars                          |
 HTML5                               |
-jQuery                              |
-jQueryDocs                          |
 SASS                                |
-YAML Nav                            | <kbd>CTRL+R</b> in a yml file
-SublimePythonIDE                    |
-MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
 Pretty JSON                         | Useful for reading/debugging output: Prettify with <kbd>CTRL+ALT+J</kbd>
-HTMLBeautify                        | Tabs out and makes your HTML nice: <kbd>CTRL+ALT+SHIFT+F</kbd>
-Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
 Indent XML                          | Can also conver to JSON (Use with <kbd>CTRL+SHIFT+P</kbd>)
+YAML Nav                            | <kbd>CTRL+R</b> in a yml file
+MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
 **Linters**                         |
 SublimeLinter                       | A suite of optional other languages (Two below for example)
 SublimeLinter-annotation            |
@@ -56,7 +67,8 @@ SublimeLinter-contrib-eslint        | Also run: `npm install -g eslint`
 SublimeLinter-json                  |
 SublimeLinter-csslint               | Also run: `npm install -g csslint`
 SublimeLinter-contrib-sass-lint     | Also Run: `npm install -g sass-lint`
-SublimeLinter-contrib-htmlhint     | Also run: `npm install -g htmlhint@latest`
+SublimeLinter-contrib-htmlhint      | Also run: `npm install -g htmlhint@latest`
+SublimeLinter-contrib-mdl           | MarkdownLint, Also run: `gem install markdownl (Required SublimeLinter)
 SublimeLinter-pep8                  | Also run: `sudo pip install pep8`
 SublimeLinter-php                   | (PHP must be installed)
 SublimeLinter-phpcs                 | Code Sniffer, Also Run: `composer global require "squizlabs/php_codesniffer=*"`
@@ -64,11 +76,11 @@ SublimeLinter-lint                  | Also Run: `npm install -g phplint`
 SublimeLinter-contrib-py-lint       | Also Run: `sudo pip install pylint`
 phpdoc                              | PHP Docs, very useful.
 **Optional**                        |
+ColorPicker                         | (I don't use) <kbd>CTRL+SHIFT+C</kbd>
+CSSComb                             | Organize all that CSS by names *Required Node
 GitGutter                           | (I don't use) Useful for seeing your changes verses your current HEAD
 TodoReview                          | Right click a folder > Todo Review
-SideBarEnhancements                 | (I don't use) Many more options in the context menu
 Emmet                               | (I don't use) Short Syntax for markup [Emmit.io](http://emmet.io/)
-ColorPicker                         | (I don't use) <kbd>CTRL+SHIFT+C</kbd>
 
 ---
 
