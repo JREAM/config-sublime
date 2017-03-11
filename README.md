@@ -77,13 +77,14 @@ Method                             | Key Combo
 **UI** |
 Markdown Preview | <kbd>ALT + M</kbd>
 HTML-CSS-JS Prettify | <kbd>CTRL + SHIFT + H</kbd> (use a .jsbeautify globally or perproject)
-AdvancedNewFile | <kbd>SUPER+ALT+N</kbd> Create new file/folders from project root
+AdvancedNewFile | <kbd>SUPER+ALT+N</kbd> Create new file/folders from project rootn
 Themr | <kbd>CTRL+F5</kbd> Dialog to quickly swap themes
 Git | <kbd>CTRL+SHIFT+P</kbd> Type `git` and run any Git command from current Git Folder.
 Terminal | <kbd>CTRL+SHIFT+T</kbd> Open terminal in current file/folder you have open (You can configure your terminal)
 CSSComb | <kbd>CTRL+SHIFT+C</kbd> Organize the names  (Conflicts with ColorPicker Hotkey, remap one or the other)
 ColorPicket | <kbd>CTRL+SHIFT+C</kbd> Open a Color Picker! (Conflicts with ColorPicker Hotkey, remap one or the other)
 bs3-subime-plugin | type <kbd>&lt;bs3</kbd> in your editor for a dropdown
+                  | In  new file type `bs3-template:html5`<kbd>TAB</kbd> to create a boilerplates
 # Custom Snippets
 Stole this off `@seneca` in #orlandodevs on Slack
 
