@@ -25,6 +25,8 @@ Monokai Extended                    | Still my favorite. Highlights more files w
 **Essentials**                      |
 Alignment                           | Restart Sublime, <kbd>CTRL+ALT+A</kbd> With multi-selected arrays
 AdvancedNewFile                     | <kbd>SUPER+ALT+N</kbd> Create new file/folders from project root
+ApacheConf.tmLanguage               | Syntax for Apache Config
+AutoSemiColin                       | Good!
 Normalize-Identation                | <kbd>CTRL+ALT+i</kbd> to fix the normalize indentation
 BracketHighlighter                  |
 HTML-CSS-JS Prettify                | Required: NodeJS for JS Prettify
