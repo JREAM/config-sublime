@@ -24,10 +24,15 @@ These are Paths on Linux to the Sublime Text 3 configuration files.
         - **/ColorPicker** (Example)
             - `Colorpicker.sublime-settings`  (Overwrite Default Settings)
             - `Default (Linux).sublime-keymap` (Overwrite Default KeyBindings)
-        - **/User** (All Settings/Keybindings)
+        - **/User** (All User Settings/Keybindings)
             - `Preferences.sublime-settings` (Your Custom Settings)
             - `Default (Linux).sublime-keymap` (Your Custom KeyBindings)
-
+        - **I cannot find the Default Package**, It seems like it's just part of Users maybe.
+            - NOTE: I installed the .deb file
+- **/opt/sublime_text**
+    - **/Icon**
+    - **/Packages** (Just compiled files)
+        - *.sublime-package
 
 # Packages Control
 The plugins file you have to install with the Sublime package manager by
