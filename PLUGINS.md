@@ -50,7 +50,7 @@ Plugin                              | Notes
 [Themr](https://packagecontrol.io/packages/Themr)                                 | Quickly Swap Themes
 [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview)                       | Load Markdown File and Update it, Refresh Browser
 **Development**                     |
-[bs3-sublime-plugin](https://packagecontrol.io/packages/bs3-sublime-plugin)                    | Bootstrap 3 Autocomplete Snippets
+[bs3-sublime-plugin](https://packagecontrol.io/packages/Bootstrap%203%20Snippets)                    | Bootstrap 3 Autocomplete Snippets
                                     | The following must be in your settings to use `
                                     | `"auto_complete_triggers": [{"selector": "text.html", "characters": "<"},{"selector": "text.html", "characters": "bs3"}]`
 [jQuery](https://packagecontrol.io/packages/jQuery)                                |
