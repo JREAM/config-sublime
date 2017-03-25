@@ -40,8 +40,17 @@
             "key": "panel_has_focus"
         }]
     },
-
-
+    // --------------------------------------------------------------------
+    // ALT LEFT/RIGHT - START/END OF LINE
+    // ALT SHIFT LEFT/RIGHT - HIGHLIGHT START/END OF LINE
+    // ALT UP UP/ALT DOWN DOWN - TOP/BOTTOM FILE
+    // --------------------------------------------------------------------
+    { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+    { "keys": ["alt+up", "alt+up"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+    { "keys": ["alt+down", "alt+down"], "command": "move_to", "args": {"to": "eof", "extend": false} },
     // --------------------------------------------------------------------
     // PLUGIN: MARKDOWN PREVIEW
     // --------------------------------------------------------------------
