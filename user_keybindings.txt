@@ -20,6 +20,14 @@
     { "keys": ["ctrl+w"], "command": "close_file" },
 
     // --------------------------------------------------------------------
+    // SUBWORD NAVIGATION
+    // --------------------------------------------------------------------
+    { "keys": ["ctrl+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["ctrl+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+    // --------------------------------------------------------------------
     // CODE FOLDING
     // --------------------------------------------------------------------
     { "keys": ["ctrl+["], "command": "fold" },
@@ -40,21 +48,20 @@
             "key": "panel_has_focus"
         }]
     },
+
     // --------------------------------------------------------------------
-    // ALT LEFT/RIGHT - START/END OF LINE
-    // ALT SHIFT LEFT/RIGHT - HIGHLIGHT START/END OF LINE
-    // ALT UP UP/ALT DOWN DOWN - TOP/BOTTOM FILE
+    // PLUGIN: TOGGLE FILE BROWSER
     // --------------------------------------------------------------------
-    { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
-    { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
-    { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
-    { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
-    { "keys": ["alt+up", "alt+up"], "command": "move_to", "args": {"to": "bof", "extend": false} },
-    { "keys": ["alt+down", "alt+down"], "command": "move_to", "args": {"to": "eof", "extend": false} },
-    // --------------------------------------------------------------------
-    // PLUGIN: MARKDOWN PREVIEW
-    // --------------------------------------------------------------------
-    { "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target": "browser"} },
+    {
+        "keys": ["f1"],
+        "command": "dired",
+        "args": {
+            "immediate": true,
+            "single_pane": true,
+            "other_group": "right",
+            "project": true
+        }
+    },
 
     // --------------------------------------------------------------------
     // EASIER LAYOUT HOTKEYS
@@ -121,8 +128,7 @@
             "rows": [0.0, 0.33, 0.66, 1.0],
             "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
         }
-    }
-,
+    },
     {
         "keys": ["alt+5"],
         "command": "set_layout",
