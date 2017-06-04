@@ -41,10 +41,11 @@ RegReplace                          | Used for customizing hotkeys
 Terminal                            | Open terminal in current folder
 Themr                               | Quickly Swap Themes
 MarkdownPreview                     | Load Markdown File and Update it, Refresh Browser
+                                    |
 **Development**                     |
 bs3-sublime-plugin                  | Bootstrap 3 Autocomplete Snippets
                                     | The following must be in your settings to use `
-                                    | `"auto_complete_triggers": [{"selector": "text.html", "characters": "<"},{"selector": "text.html", "characters": "bs3"}]`
+                                    | ([See Below for Snippet](#bs3-snippet))
 jQuery                              |
 jQueryDocs                          |
 Javascript Beautify                 | Tabs out and makes your JS nice (Use: <kbd>CTRL+SHIFT+P</kbd>)
@@ -60,6 +61,7 @@ Pretty JSON                         | Useful for reading/debugging output: Prett
 Indent XML                          | Can also conver to JSON (Use with <kbd>CTRL+SHIFT+P</kbd>)
 YAML Nav                            | <kbd>CTRL+R</b> in a yml file
 MarkdownPreview                     | In my keybindings use <kbd>ALT+M</kbd>, otherwise <kbd>CTRL+SHIFT+P</kbd> and search for markdown.
+                                    |
 **Linters**                         |
 SublimeLinter                       | A suite of optional other languages (Two below for example)
 SublimeLinter-annotation            |
@@ -84,6 +86,11 @@ GitGutter                           | (I don't use) Useful for seeing your chang
 TodoReview                          | Right click a folder > Todo Review
 Emmet                               | (I don't use) Short Syntax for markup [Emmit.io](http://emmet.io/)
 
+
+### BS3-Snippet
+```
+"auto_complete_triggers": [{"selector": "text.html", "characters": "<"},{"selector": "text.html", "characters": "bs3"}]
+```
 ---
 
 &copy 2017 Jesse Boyer | [JREAM](http://jream.com)
