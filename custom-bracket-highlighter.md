@@ -17,7 +17,7 @@
   "bracket_styles": {
     "default": {
         "color": "comment.block.bracket_highlighter"   // <-- This will come from our active Theme. 
-                                                          <-- we must use a real scope (comment.block) 
+                                                       // <-- we must use a real scope (comment.block) 
     }
   }
 }
