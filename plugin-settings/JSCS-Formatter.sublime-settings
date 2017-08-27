@@ -1,0 +1,40 @@
+{
+
+  // Plugin: JSCS-Formatter
+  // ~/.config/sublime-text-3/Packages/User/JSCS-Formatter.sublime-settings
+  // @TODO: See here for configuration
+  // https://gist.github.com/GaryJones/040a3091f09ed6142056
+
+  // Simply using `node` without specifying a path sometimes doesn't work :(
+  // https://github.com/victorporof/Sublime-HTMLPrettify#oh-noez-command-not-found
+  // http://nodejs.org/#download
+  "node_path": {
+    "windows": "node.exe",
+    "linux": "/home/jesse/.nvm/versions/node/v8.3.0/bin/node",
+    "osx": "void"
+  },
+
+  "jscs_path": {
+    "windows": "%APPDATA%/npm/node_modules/jscs/bin/jscs",
+    "linux": "/home/jesse/.nvm/versions/node/v8.3.0/bin/jscs",
+    "osx": "void"
+  },
+
+  // Specify this path to a JSCS config file to override the default behavior.
+  // Passed to JSCS as --config. Read more here:
+  // http://jscs.info/overview.html#-config-
+  "config_path": "",
+
+  // Automatically format when a file is saved.
+  "format_on_save": false,
+
+  // Only attempt to format files with whitelisted extensions on save.
+  // Leave empty to disable the check
+  "format_on_save_extensions": [
+    "js",
+    "jsx",
+    "es",
+    "es6",
+    "babel"
+  ]
+}
