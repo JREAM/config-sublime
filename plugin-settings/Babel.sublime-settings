@@ -1,0 +1,12 @@
+{
+  // Plugin: Babel
+  // ~/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings
+  "debug": false,
+  "use_local_babel": true,
+  "node_modules": {
+    "windows": "C:/Program Files/nodejs/node_modules",
+    "linux": "/home/jesse/.nvm/versions/node/v8.3.0/bin/babel",
+    "osx": "/usr/local/lib/node_modules"
+  },
+  "options": {}
+}
