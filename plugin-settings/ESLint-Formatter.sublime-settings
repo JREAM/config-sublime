@@ -1,0 +1,48 @@
+{
+  // Plugin: ESLint Formatter
+  // ~/.config/sublime-text-3/Packages/User/ESLint-Formatter.sublime-settings
+  "node_path": {
+    "windows": "node.exe",
+    "linux": "/home/jesse/.nvm/versions/node/v8.3.0/bin/node",
+    "osx": "void"
+  },
+
+  "local_eslint_path": {
+    "windows": "node_modules/eslint/bin/eslint",
+    "linux": "node_modules/eslint/bin/eslint",
+    "osx": "node_modules/eslint/bin/eslint"
+  },
+
+  "eslint_path": {
+    "windows": "%APPDATA%/npm/node_modules/eslint/bin/eslint__?__",
+    "linux": "/home/jesse/.nvm/versions/node/v8.3.0/bin/eslint ",
+    "osx": "void"
+  },
+
+  "config_path": ".eslintrc"
+}
+
+/**
+// Example .eslintrc file:
+{
+  // npm install -g eslint
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "amd": true,
+    "browser": true,
+    "jquery": true,
+    "node": true,
+    "phantomjs": true
+  },
+  "rules": {
+    "indent": ["warn", 2]
+  },
+  "extends": "eslint"
+}
+*/
