@@ -5,6 +5,73 @@
     { "keys": ["f5"], "command": "refresh_folder_list" },
 
     // --------------------------------------------------------------------
+    // START/END OF LINE CURSOR
+    // --------------------------------------------------------------------
+    { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+    // Top/Bottom of file (with defaults ctrl+shift+<home/end>)
+    { "keys": ["alt+pageup"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+    { "keys": ["alt+pagedown"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+    // Highlight
+    { "keys": ["alt+shift+pageup"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+    { "keys": ["alt+shift+pagedown"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
+    // Sort Lines (case-insensitive)
+    { "keys": ["alt+s"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    // Sort Lines (case-sensitive)
+    { "keys": ["alt+s", "alt+d"], "command": "sort_lines", "args": {"case_sensitive": true} },
+
+    // Marks (Default)
+    // --------------------------------------------------------------------
+    // ctrl+k, ctrl+space = set_mark      (Thinking Alt+.)
+    // ctrl+k, ctrl+a     = select to mark (Thinking Alt+')
+    // ctrl+k, ctrl+w     = delete to mark (Thinking Alt+;, Alt+;)
+
+    // --------------------------------------------------------------------
+    // Bookmarks (Defaults Remain)
+    //
+    // (N and J are above eachother, J goes up/back, N goes down/next)
+    // Alt+N: Next Bookmark (default: F2)
+    // Alt+J: Prev Bookmark (default: Shift+F2)
+    //
+    // F2+Shift: Prev Bookmark (default)
+    // ALT+B Toggle Bookmark, (default: ALT+F2)
+    // Alt+F3 Select all Booksmarks
+    // [Alt+F3 + ALT+F3] Clear Bookmarks, (default ALT+F2)
+    //        - Note: Alt+F3 is easier to reach and ALT+F2 Brings Linux CMS Dialog
+    //
+    // --------------------------------------------------------------------
+      { "keys": ["alt+n"], "command": "next_bookmark" },
+      { "keys": ["alt+j"], "command": "prev_bookmark" },
+      { "keys": ["alt+b"], "command": "toggle_bookmark" },
+      { "keys": ["alt+f3", "alt+f3"], "command": "clear_bookmarks" },
+      { "keys": ["alt+f3"], "command": "select_all_bookmarks" },
+
+    // --------------------------------------------------------------------
+    // Plugin: Power Cursors
+    // --------------------------------------------------------------------
+    { "keys": ["shift+alt+up"], "command": "power_cursor_add" },
+    { "keys": ["shift+alt+down"], "command": "power_cursor_remove",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+    { "keys": ["shift+alt+a"], "command": "power_cursor_activate",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+    { "keys": ["shift+alt+["], "command": "power_cursor_select", "args": { "forward": false } },
+    { "keys": ["shift+alt+]"], "command": "power_cursor_select", "args": { "forward": true } },
+    { "keys": ["escape"], "command": "power_cursor_exit",
+      "context": [ { "key": "in_cursor_transition" } ]
+    },
+
+    // --------------------------------------------------------------------
+    // Plugin: Alignment (Highlighted)
+    // --------------------------------------------------------------------
+    { "keys": ["alt+a"], "command": "alignment" },
+
+    // --------------------------------------------------------------------
     // DELETE LINE
     // --------------------------------------------------------------------
     { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
@@ -13,11 +80,20 @@
     // DUPLICATE LINE
     // --------------------------------------------------------------------
     { "keys": ["ctrl+d"], "command": "duplicate_line" },
+    { "keys": ["ctrl+i"], "command": "reindent" },
 
     // --------------------------------------------------------------------
     // CLOSE TAB
     // --------------------------------------------------------------------
     { "keys": ["ctrl+w"], "command": "close_file" },
+
+    // --------------------------------------------------------------------
+    // CODE FOLDING
+    // --------------------------------------------------------------------
+    { "keys": ["alt+["], "command": "fold" },
+    { "keys": ["alt+]"], "command": "unfold" },
+    { "keys": ["alt+shift+]"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["alt+shift+["], "command": "unfold_all" },
 
     // --------------------------------------------------------------------
     // CODE FOLDING
@@ -41,13 +117,7 @@
         }]
     },
 
-    // --------------------------------------------------------------------
-    // ALT+LEFT/RIGHT - Move to beginning or end of line
 
-    { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
-    { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
-    { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
-    { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
     // --------------------------------------------------------------------
     // PLUGIN: MARKDOWN PREVIEW
     { "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target": "browser"} },
