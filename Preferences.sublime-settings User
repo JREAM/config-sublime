@@ -1,83 +1,90 @@
 {
-	"auto_close_tags": true,
-	"bold_folder_labels": true,
-	"caret_extra_bottom": 1,
-	"caret_extra_top": 1,
-	"caret_extra_width": 2,
-	"caret_style": "phase",
-	"color_inactive_tabs": false,
-	"color_scheme": "Packages/User/Agila Neon Monocyanide (SublimePythonIDE).tmTheme",
-	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"drag_text": false,
-	"draw_centered": false,
-	"draw_minimap_border": true,
-	"enable_telemetry": "disabled",
-	"ensure_newline_at_eof_on_save": false,
-	"fade_fold_buttons": false,
-	"fallback_encoding": "UTF-8",
-	"file_exclude_patterns":
-	[
-		"composer.lock",
-		"npm-debug.log",
-		"*min.css",
-		"*min.js",
-		"*css.map",
-		"third-party/**/*.md"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"cache",
-		"vendor",
-		"node_modules"
-	],
-	"font_face": "Fira Code Retina, serif",
-	"font_size": 13,
-	"gutter": true,
-	"highlight_line": false,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"indent_to_bracket": true,
-	"line_numbers": true,
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"margin": 0,
-	"open_files_in_new_window": false,
-	"remember_open_files": true,
-	"rulers":
-	[
-		120
-	],
-	"scroll_past_end": true,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"sidebar_row_padding_large": true,
-	"sidebar_size_16": true,
-	"spell_check": true,
-	"status_bar_brighter": true,
-	"tab_size": 4,
-	"tabs_label_not_italic": true,
-	"tabs_large": true,
-
-	"theme": "Agila Neon.sublime-theme",
-	"theme_agila_active_tab_entry_yellow": true,
-	"theme_agila_auto_complete_lightblue": true,
-	"theme_agila_modified_tab_marker_pink": true,
-	"theme_agila_sidebar_font_big": true,
-	"theme_agila_sidebar_heading_yellow": true,
-	"theme_agila_sidebar_large": true,
-	"theme_agila_sidebar_light_icons": true,
-	"theme_agila_sidebar_selected_entry_yellow": true,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "false"
+  "auto_close_tags": true,
+  "bold_folder_labels": true,
+  "caret_extra_bottom": 1,
+  "caret_extra_top": 1,
+  "caret_extra_width": 2,
+  "caret_style": "phase",
+  "color_inactive_tabs": false,
+  "color_scheme": "Packages/User/Monokai (SL) (SublimePythonIDE).tmTheme",
+  "default_encoding": "UTF-8",
+  "default_line_ending": "unix",
+  "drag_text": false,
+  "draw_centered": false,
+  "draw_minimap_border": true,
+  "enable_telemetry": "disabled",
+  "ensure_newline_at_eof_on_save": false,
+  "fade_fold_buttons": false,
+  "fallback_encoding": "UTF-8",
+  "file_exclude_patterns":
+  [
+    "composer.lock",
+    "npm-debug.log",
+    "*min.css",
+    "*min.js",
+    "*css.map",
+    "third-party/**/*.md"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "cache",
+    "vendor",
+    "node_modules"
+  ],
+  "font_face": "Fira Code Retina, serif",
+  "font_size": 13,
+  "gutter": true,
+  "highlight_line": false,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "indent_to_bracket": true,
+  "line_numbers": true,
+    "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "margin": 0,
+    "open_files_in_new_window": false,
+  "pep8_ignore":
+  [
+        "Also change in pep8autoformat plugin",
+    "E111",
+    "E114"
+  ],
+    "pep8_max_line_length": 124,
+  "python_interpreter": "/usr/bin/python",
+  "remember_open_files": true,
+  "rulers":
+  [
+    120
+  ],
+  "scroll_past_end": true,
+  "show_encoding": true,
+  "show_line_endings": true,
+  "sidebar_row_padding_large": true,
+  "sidebar_size_16": true,
+  "spell_check": true,
+  "status_bar_brighter": true,
+  "tab_size": 2,
+  "tabs_label_not_italic": true,
+  "tabs_large": true,
+  "theme": "Agila Neon.sublime-theme",
+  "theme_agila_active_tab_entry_yellow": true,
+  "theme_agila_auto_complete_lightblue": true,
+  "theme_agila_modified_tab_marker_pink": true,
+  "theme_agila_sidebar_font_big": true,
+  "theme_agila_sidebar_heading_yellow": true,
+  "theme_agila_sidebar_large": true,
+  "theme_agila_sidebar_light_icons": true,
+  "theme_agila_sidebar_selected_entry_yellow": true,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": "false"
 }
